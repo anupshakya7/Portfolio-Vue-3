@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col gap-5 py-10">
         <h1 class="text-3xl font-bold text-gray-300 mb-5">My Selected Work</h1>
-        <div class="grid grid-cols-2 gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div class="h-[500px] p-5 rounded-lg bg-[url('/public/assets/spotlight1.png')] bg-center bg-cover bg-no-repeat flex flex-col justify-between items-start">
                 <img src="/public/assets/project-logo1.png" class="h-14 bg-gray-900 p-3 rounded-xl" alt="">
                 <h1 class="text-2xl font-bold">Poadcaster - AI podcast generator</h1>

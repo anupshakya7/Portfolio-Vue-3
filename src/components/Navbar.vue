@@ -1,19 +1,20 @@
 <template>
    <nav class="flex justify-between items-center">
-        <h1 class="text-3xl font-bold">SpaqooT</h1>
-        <ul class="flex space-x-10">
-            <li>Home</li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
+        <h1 class="text-3xl font-bold cursor-pointer">Anup</h1>
+        <ul class="md:flex space-x-10 hidden">
+            <li class="cursor-pointer transition duration-300 ease-in-out hover:text-custom-hover">Home</li>
+            <li class="cursor-pointer transition duration-300 ease-in-out hover:text-custom-hover">About</li>
+            <li class="cursor-pointer transition duration-300 ease-in-out hover:text-custom-hover">Work</li>
+            <li class="cursor-pointer transition duration-300 ease-in-out hover:text-custom-hover">Contact</li>
         </ul>
+        <div class="md:hidden">
+            <Menu/>
+        </div>
    </nav>
 </template>
 
-<script>
-    export default {
-        
-    }
+<script setup>
+import Menu from '../../public/assets/Menu.vue';
 </script>
 
 <style scoped>

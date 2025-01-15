@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10 px-20 flex flex-col gap-5">
+  <div class="p-5 md:p-10 md:px-20 flex flex-col gap-5">
     <Navbar/>
     <Header/>
     <About/>
