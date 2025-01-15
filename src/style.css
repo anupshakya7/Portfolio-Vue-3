@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.bg-gray-900{
+  background-color: #0C0C0d;
+}
+
