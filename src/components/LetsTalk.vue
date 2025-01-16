@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col space-y-5 justify-center items-center">
         <!-- <h1 class="text-3xl font-bold text-gray-300">Let's Talk</h1> -->
-        <div class="flex justify-center flex-col items-start bg-[url('/public/assets/terminal.png')] bg-center bg-contain bg-no-repeat md:h-[700px] p-10 md:p-32 w-full md:w-3/5">
+        <div class="flex justify-center flex-col items-start bg-[url('/public/assets/terminal.png')] bg-center bg-contain bg-no-repeat md:h-[700px] p-10 md:p-32 w-full md:w-4/5">
             <h1 class="md:text-3xl font-bold text-center text-gray-300 w-full">Let's Talk</h1>
             <p class="text-gray-500 mt-4 text-center text-sm hidden md:block">
                 We’d love to hear from you! Whether you have a question, need support, or just want to share your thoughts, we're here to listen.
